@@ -1,0 +1,65 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: rgb(255, 0, 0, .5);	
+}
+
+
+.header {
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	padding: 10px;
+	background: darkgrey;
+}
+
+.header > nav {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+
+.header > nav > a {
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.header > nav > a:hover {
+	color: red;
+}
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 30px;
+	background: grey;
+
+}
+.main {
+	padding: 10px;
+}
+
+#html, #css, #about {
+	border: 2px solid black;
+	color: white;
+	padding: 10px;
+	background: black;
+}
+
+#html > h1, #css > h1, #about > h1 {
+	font-size: 4em;
+}
+
+#css{
+	color: white;
+}
+
+#about{
+	color: white;
+}
