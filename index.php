@@ -34,6 +34,7 @@
 		</div>
 		<div class="footer">
 			<h5>&copy;Vinila 2022</h5>
+			<a href="/calculator/calculator.php">calculator</a>
 		</div>
 	</body>
 </html>
