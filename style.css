@@ -4,7 +4,7 @@
 }
 
 body {
-	background: rgb(255, 0, 0, .5);	
+	background: rgb(255, 0, 0, .5);
 }
 
 
@@ -45,14 +45,14 @@ body {
 	padding: 10px;
 }
 
-#html, #css, #about {
+#html, #css, #about, #contact {
 	border: 2px solid black;
 	color: white;
 	padding: 10px;
-	background: black;
+	margin-bottom: 10px;
 }
 
-#html > h1, #css > h1, #about > h1 {
+#html > h1, #css > h1, #about > h1, #contact > h1{
 	font-size: 4em;
 }
 
@@ -62,4 +62,5 @@ body {
 
 #about{
 	color: white;
+
 }
